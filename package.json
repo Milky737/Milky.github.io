@@ -1,0 +1,27 @@
+
+{
+    "name": "quiz",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder --win portable"
+    },
+    "description": "Un quiz especial",
+    "keywords": [],
+    "author": "Milky.",
+    "license": "ISC",
+    "type": "commonjs",
+    "devDependencies": {
+        "electron": "^44.5.1",
+        "electron-builder": "^26.15.3"
+    },
+    "build": {
+        "appId": "com.milky.quiz",
+        "productName": "Quiz",
+        "icon": "icon.ico",
+        "win": {
+            "target": "portable"
+        }
+    }
+}
